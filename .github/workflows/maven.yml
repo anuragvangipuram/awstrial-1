@@ -27,5 +27,5 @@ jobs:
     - name: create sshpass to EC2
       run: sudo apt install sshpass -y
     - name: ssh to EC2
-      run: sshpass -p "bhas" ssh bharath@35.172.240.83
+      run: sshpass -t -t -p "bhas" ssh bharath@35.172.240.83
       
